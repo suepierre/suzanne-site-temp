@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dr. Suzanne Pierre — Ecologist & Speaker</title>
+  <meta name="description" content="Research, writing, and talks connecting ecology, history, and justice.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Source+Serif+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#FAF9F6; --text:#222; --muted:#666; --accent:#2E5E4E; --ochre:#C99846; --radius:14px;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Arial,sans-serif}
+    .wrap{max-width:980px;margin:0 auto;padding:28px}
+    header{padding:18vh 0 8vh}
+    h1{font-size:42px;line-height:1.1;margin:0 0 12px}
+    h2{font-size:22px;color:var(--muted);margin:0 0 24px}
+    p{font-family:"Source Serif Pro", Georgia, serif;font-size:18px;line-height:1.6;margin:0 0 16px}
+    .cta-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:20px}
+    .btn{display:inline-block;padding:12px 16px;border-radius:var(--radius);text-decoration:none;font-weight:600}
+    .btn-primary{background:var(--accent);color:#fff}
+    .btn-secondary{background:var(--ochre);color:#fff}
+    .grid{display:grid;gap:18px;margin:48px 0}
+    @media(min-width:800px){.grid{grid-template-columns:1.3fr 1fr}}
+    .card{background:#fff;border-radius:var(--radius);padding:18px;border:1px solid #eae7e2}
+    .muted{color:var(--muted)}
+    footer{padding:48px 0;color:var(--muted);font-size:14px}
+    .logo-strip{display:flex;gap:18px;flex-wrap:wrap;align-items:center;opacity:.8}
+    .pill{display:inline-block;background:#fff;border:1px solid #eee;border-radius:999px;padding:6px 10px;font-size:14px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>🔧 I’m Dr. Suzanne Pierre — ecologist, writer, and founder of the Critical Ecology Lab.</h1>
+      <h2>I study how history and power shape the climate crisis, and help institutions act on the evidence.</h2>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="mailto:🔧you@email.com?subject=Speaking%20Inquiry">Book me to speak</a>
+        <a class="btn btn-secondary" href="🔧https://link-to-latest-essay.com" target="_blank">Read my latest</a>
+        <a class="btn" style="border:1px solid #ddd;background:#fff" href="🔧https://newsletter-link-or-form.com" target="_blank">Get updates</a>
+      </div>
+    </header>
+
+    <section class="logo-strip" aria-label="Trusted by">
+      <span class="pill">NSF</span><span class="pill">Simons</span><span class="pill">NatGeo</span><span class="pill">UC Berkeley</span><span class="pill">TEDx</span>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h3 style="margin-top:0">Featured research</h3>
+        <p><strong>Ecological Scars of Plantation Slavery</strong> — how colonial land-use still drives carbon emissions today.</p>
+        <p><a href="🔧https://link-to-project" target="_blank">Learn more →</a></p>
+      </article>
+      <aside class="card">
+        <h3 style="margin-top:0">About</h3>
+        <p>Dr. Suzanne Pierre is a critical ecologist whose work links biogeochemistry with the histories of empire and inequality. She is the founder of the Critical Ecology Lab and speaks widely to public, policy, and scientific audiences.</p>
+        <p><a href="🔧https://link-to-cv.pdf" target="_blank">CV (PDF)</a> · <a href="🔧https://link-to-press-kit" target="_blank">Press kit</a></p>
+      </aside>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h3 style="margin-top:0">Writing</h3>
+        <p><strong>Why Science Must Confront Power</strong> — 🔧Outlet, Date. <a href="🔧https://link" target="_blank">Read →</a></p>
+        <p><strong>The Soil Remembers</strong> — 🔧Outlet, Date. <a href="🔧https://link" target="_blank">Read →</a></p>
+      </article>
+      <article class="card">
+        <h3 style="margin-top:0">Speaking</h3>
+        <p>Keynotes, panels, and workshops for universities, museums, funders, and policy audiences.</p>
+        <p><a class="btn btn-primary" href="mailto:🔧you@email.com?subject=Speaking%20Inquiry">Request speaking</a></p>
+      </article>
+    </section>
+
+    <section class="card">
+      <h3 style="margin-top:0">Media</h3>
+      <p><strong>NPR Interview</strong> — Climate & justice. <a href="🔧https://link" target="_blank">Listen →</a></p>
+      <p><strong>Podcast</strong> — 🔧Show title. <a href="🔧https://link" target="_blank">Listen →</a></p>
+    </section>
+
+    <footer>
+      <p>© <span id="y"></span> Suzanne Pierre · <a href="https://criticalecology.org" target="_blank">Critical Ecology Lab</a></p>
+    </footer>
+  </div>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
